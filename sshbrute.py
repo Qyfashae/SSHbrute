@@ -29,7 +29,7 @@ with open(password_file, "r") as file:
                 print("Password found: " + password)
                 exit(0)
             elif response == 1:
-                print("NULL")
+                print("No hit, trying next!")
         except Exception as e:
             print(e)
         pass
